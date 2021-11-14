@@ -4,21 +4,123 @@
     <meta charset="UTF-8">
     <title>Space Orks</title>
     <style>
-        div {
+        .div1 {
             background-color: black;
             color: white;
             height: 1000px;
             width: 80%;
             padding: 50px;
-            margin: 20px;
             text-align: center;
         }
+
         html {
             background-color: green;
+            margin: 20px;
+        }
+
+
+
+        figure {
+            width: 250px;
+            position: relative;
+            padding: 0px;
+            float: right;
+
+        }
+
+        figure img {
+            width: 100%;
+            vertical-align: top;
+        }
+
+        .figcaption1 {
+            position: absolute;
+            margin-top: -30px;
+            color: black;
+            margin-left: 35%;
+            text-align: left;
+        }
+
+        .figcaption2 {
+            position: absolute;
+            margin-top: -20px;
+            color: black;
+            margin-left: 45%;
+            text-align: left;
+        }
+
+        .div2 {
+            border: solid white 0.1px;
+            width: 45%;
+            float: left;
+            height: 520px;
+            font-size: 13px
         }
     </style>
 </head>
+
 <body>
-    <center><div><h1>Space Orks</h1><h5><i>"Wia kämpf'n nich' für Essen oder Knarr'n oder weil man's uns befohl'n hat. Wia kämpf'n, weil wia zum Kämpf'n gebor'n sind. Un' zum gewinnen."</i><p><i id = "i">-Grukk, Ork Boy</i></p></h5></div></center>
-</body>
-</html>
+    <div class="div1">
+        <center>
+            <h1>Space Orks</h1>
+            <h5><i>"Wia kämpf'n nich' für Essen oder Knarr'n oder weil man's uns befohl'n hat. Wia kämpf'n, weil wia zum Kämpf'n gebor'n sind. Un' zum gewinnen."</i>
+                <p><i id="i">-Grukk, Ork Boy</i></p>
+            </h5>
+        </center>
+        <div class="div2">
+            <h2>
+                <p>Inhalt</p>
+            </h2>
+            <ol>
+                <li>Orks</li>
+                <li>Kultur</li>
+                <ol>
+                    <li>Der Heizakult</li>
+                    <li>Viechfänga</li>
+                </ol>
+                <li>Ihre Bedeutung für die Menschheit</li>
+                <li>Götter</li>
+                <li>Die Clans</li>
+                <ol>
+                    <li>Goffs</li>
+                    <li>Blood Axes</li>
+                    <li>Deathskulls</li>
+                    <li>Snakebites</li>
+                    <li>Evil Sunz</li>
+                    <li>Bad Moons</li>
+                    <li>Freebooterz</li>
+                </ol>
+                <li>Wichtige Ork Persönlichkeiten</li>
+                <ol>
+                    <li>Ghazghkull Mag Uruk Thraka</li>
+                    <ol>
+                        <li>Makari</li>
+                    </ol>
+                    <li>Mozrog Skragbad</li>
+                    <li>Boss Zagstruk</li>
+                    <li>Käpt'n Badrukk</li>
+                    <li>Boss Snikrot</li>
+                    <li>Psychodok Grutsnik</li>
+                    <li>Zodgrod Wortsnagga</li>
+                </ol>
+                <li>WAAAGHs</li>
+                <li>Der große WAAAGH</li>
+                <ol>
+                    <li>Der zweite Krieg um Armageddon</li>
+                    <li>Der dritte Krieg um Armageddon</li>
+                    <li>Ghazghkulls Rückzug</li>
+                </ol>
+                <li>Quellen</li>
+            </ol>
+        </div>
+
+        <figure>
+            <img src="https://www.duo-shop.de/de-DE/Document/Image/c219c7c6-9d83-4d80-9a99-d59bc7a218f1/50/50/Games-Workshop-Warhammer-40-000-Ork-Boyz" alt="">
+            <figcaption class="figcaption1"><i>Boss Nob</i></figcaption>
+        </figure>
+        <figure>
+            <img src="data:image/jpeg;base64,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" alt="">
+            <figcaption class="figcaption2"><i>Nob</i></figcaption>
+        </figure>
+    </div>
+</body></html>
